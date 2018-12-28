@@ -11,14 +11,26 @@ git commit
 https://www.git-tower.com/learn/git/commands/git-commit
 "Also note that in Git (not like in Subversion), a commit is not automatically transferred to the remote server. Using the "git commit" command only saves a new commit object in the local Git repository. Exchanging commits has to be performed manually and explicitly (with the "git fetch", "git pull", and "git push" commands)."
 
-e.g. git add filename.txt
-e.g. git commit -m "comment here" filename.txt
+e.g. $ git add filename.txt
+e.g. $ git commit -m "comment here" filename.txt
 
 Set remote server location
-git remote add origin https://github.com/daveyharding/scholarship.git
+$ git remote add origin https://github.com/daveyharding/scholarship.git
 
 Push local commits to remote server
-git push
+$ git push
 
 Check remote location 
-git remote -v
+$ git remote -v
+
+Setting your email address for every repository on your computer
+Set an email address in Git:
+$ git config --global user.email "email@example.com"
+Confirm that you have set the email address correctly in Git:
+$ git config --global user.email
+
+Setting your name for every repository on your computer
+Set an name in Git:
+$ git config --global user.name "Davey Harding"
+Confirm that you have set the name correctly in Git:
+$ git config --global user.name
