@@ -19,3 +19,5 @@ git remote add origin https://github.com/daveyharding/scholarship.git
 
 Push local commits to remote server
 git push
+
+#test
