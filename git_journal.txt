@@ -18,4 +18,4 @@ Set remote server location
 git remote add origin https://github.com/daveyharding/scholarship.git
 
 Push local commits to remote server
-git push --set-upstream origin master
+git push
