@@ -1,0 +1,11 @@
+git Basics (YouTube)
+https://www.youtube.com/playlist?list=PLg7s6cbtAD165JTRsXh8ofwRw0PqUnkVH
+
+git Download
+http://git-scm.com/downloads
+
+git Documentation
+http://git-scm.com/documentation
+
+git commit
+https://www.git-tower.com/learn/git/commands/git-commit
