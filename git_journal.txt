@@ -9,3 +9,7 @@ http://git-scm.com/documentation
 
 git commit
 https://www.git-tower.com/learn/git/commands/git-commit
+"Also note that in Git (not like in Subversion), a commit is not automatically transferred to the remote server. Using the "git commit" command only saves a new commit object in the local Git repository. Exchanging commits has to be performed manually and explicitly (with the "git fetch", "git pull", and "git push" commands)."
+
+git remote add origin https://github.com/daveyharding/scholarship.git
+git push --set-upstream origin master
